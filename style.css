@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    /* font-weight: bold; */
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #2c3e50;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Center only the header and contact info */
+h1 {
+    text-align: center;
+}
+
+.contact-info {
+    text-align: center;
+    font-size: 12px;
+}
+
+
+p {
+    margin: 5px 0;
+}
+
+ul {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+/* Layout */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Contact Info */
+.contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-info a {
+    color: #3498db;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+
+/* Section Headings */
+h2 {
+    border-bottom: 2px solid #3498db;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+/* Project and Experience Lists */
+ul li {
+    margin-bottom: 8px;
+}
+
+/* Education Section */
+.education {
+    margin-top: 30px;
+}
+
+/* Spacing */
+.section {
+    margin-bottom: 20px;
+}
