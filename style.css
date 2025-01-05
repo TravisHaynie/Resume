@@ -15,9 +15,20 @@ h1, h2, h3 {
     margin-bottom: 10px;
 }
 
+
+
 /* Center only the header and contact info */
 h1 {
     text-align: center;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: #34495e;
+    margin-top: -10px; /* Adjust to reduce the gap between h1 and h2 */
+    margin-bottom: 20px; /* Add spacing before the next section */
+    font-weight: 400; /* Make it visually distinct from the h1 */
 }
 
 .contact-info {
